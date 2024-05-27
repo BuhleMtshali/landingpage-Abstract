@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+*:focus {
+  outline: none;
+}
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -20,4 +23,37 @@ body {
   background: black;
   color: white;
   font-size: 24px;
+  font-weight: 600;
+}
+.top-right {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.top-left {
+  margin-left: 20px;
+  font-size: 24px;
+}
+input {
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 10px;
+  border: 1px solid #dee2e6;
+  cursor: pointer;
+}
+
+.search-input-black {
+  background: black;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.submit-blue {
+  background: #157ff3;
+  font-weight: 600;
+  color: white;
+  padding: 15px 27px;
+  border: none;
+  font-size: 16px;
 }
