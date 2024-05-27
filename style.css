@@ -13,14 +13,11 @@ body {
   width: 100%;
 }
 .navigation-list {
-  color: #fff;
-  font-weight: 500;
-  font-size: 24px;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   height: 88px;
   background: black;
-  display: flex;
-  position: relative;
-  top: 0;
-  left: 0;
+  color: white;
+  font-size: 24px;
 }
