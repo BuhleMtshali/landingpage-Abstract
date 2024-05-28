@@ -125,5 +125,27 @@ h4 {
   background: black;
   color: white;
   margin: 0;
+  font-size: 16px;
+  line-height: 24px;
   height: 55vh;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer-column {
+  text-align: left;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 12px;
+}
+.footer-heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
 }
