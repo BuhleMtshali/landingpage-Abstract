@@ -139,6 +139,7 @@ ul {
 }
 li {
   cursor: pointer;
+  font-size: 16px;
 }
 li:hover {
   font-weight: 600;
@@ -155,4 +156,15 @@ li:hover {
   font-size: 24px;
   line-height: 28px;
   font-weight: bold;
+}
+.contact-footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.bottom-left {
+  align-content: end;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
 }
